@@ -1,0 +1,1276 @@
+@charset "utf-8";
+/* CSS Document */
+
+body
+ {
+ margin:0;
+ padding:0;
+ font-family:sans-serif;/*background:#333*/
+ font-size:13px;
+ }
+ 
+ #header
+ {
+ width:100%;
+ float:left;
+background: #4496d2; /* Old browsers */
+background: -moz-linear-gradient(-45deg, #4496d2 0%, #4496d2 51%, #43494c 51%, #43494c 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(-45deg, #4496d2 0%,#4496d2 51%,#43494c 51%,#43494c 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(135deg, #4496d2 0%,#4496d2 51%,#43494c 51%,#43494c 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4496d2', endColorstr='#43494c',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+ }
+ 
+.manage
+ {
+ width:100%;
+ float:left;
+ }
+ 
+ #header-row
+  {
+  width:100%;
+  float:left;
+ -webkit-box-shadow: 0px 3px 29px -2px rgba(0,0,0,0.75);
+-moz-box-shadow: 0px 3px 29px -2px rgba(0,0,0,0.75);
+box-shadow: 0px 3px 29px -2px rgba(0,0,0,0.75);
+  }
+  
+.nav-top
+  {
+  margin-top:25px;
+  float:left;
+  }
+  
+ .wp-manage
+  {
+  width:100%;
+  float:left;
+  }
+  
+ 
+.box-shadow
+ {
+ background:#fff;
+ padding:10px;
+ -webkit-box-shadow: 2px 2px 5px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 2px 2px 5px 0px rgba(0,0,0,0.75);
+box-shadow: 2px 2px 5px 0px rgba(0,0,0,0.75);
+margin-top:20px;
+ }
+ 
+.box-shadow1
+ {
+ background:#fff;
+ padding:10px;
+ -webkit-box-shadow: 2px 2px 5px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 2px 2px 5px 0px rgba(0,0,0,0.75);
+box-shadow: 2px 2px 5px 0px rgba(0,0,0,0.75);
+ }
+ 
+.notice
+ {
+ width:100%;
+ float:left;
+ border-bottom:#FF8000 1px double;
+ border-top:#FF8000 1px double;
+ padding:15px 0;
+ z-index:99;
+ background: rgb(251,160,22);
+background: linear-gradient(90deg, rgba(251,160,22,1) 0%, rgba(251,160,22,1) 2%, rgba(255,255,255,1) 2%, rgba(255,255,255,1) 98%, rgba(251,160,22,1) 98%, rgba(251,160,22,1) 100%);
+ color:#000;
+ position:relative;
+ opacity:100%;
+ }
+ 
+ .bx
+  {
+  width:100%;
+  float:left;
+  background:url(../images/mn.jpg);
+  padding:10px 0;
+  border: 3px solid #fff;
+  border-radius:10px;
+  
+  }
+  .bx:hover
+  {
+  width:100%;
+  float:left;
+  border: 3px double orange;
+  }
+  .bx a
+   {
+   color:#fff;
+   font-weight:bold;
+   background:#000000;
+   }
+   
+   .bx td
+   {
+   padding:8px;
+   }
+   
+   .box-x
+    {
+	width:100%;
+	float:left;
+	padding:2px;
+	background:#590315;
+	}
+	.box-y
+	 {
+	 width:150px;
+	 height:150px;
+	 float:left;
+	 padding:25px;
+	 border:5px solid #590315;
+	 background:#FFFFFF;
+	 border-radius:50%;
+	 line-height:28px;
+	 font-size:18px;
+	 }
+ 
+ .td-bx
+   {
+   padding:5px;
+   border:#000000 dotted 1px;
+   }
+   
+   .td-pd
+    {
+	padding:10px;
+	}
+ 
+ .ftl a
+  {
+  color:#FFFFFF
+  }
+  
+  .banner-left
+    {
+	width:70%;
+	float:left;
+	}
+	
+	.banner-right
+    {
+	width:30%;
+	float:left;
+	}
+	
+	.Admin-logo
+     {
+         width:100%;
+     }
+	 
+	 .leftpan-nav
+	  {
+	  width:100%;
+	  float:left;
+	  	  
+	  }
+ 
+ @media (max-width: 992px) {
+  .logo-img
+ {
+ width:100%;
+ float:left;
+ }
+ 
+  .banner-left
+    {
+	width:100%;
+	float:left;
+	}
+	
+	.banner-right
+    {
+	width:100%;
+	float:left;
+	margin:10px 0;
+	}
+	
+	.Admin-logo img
+     {
+         width:100%;
+     }
+	 
+	 .leftpan-nav
+	  {
+	 display:none;
+	  }
+ 
+}
+
+
+
+
+/*Dashboard Box Admission*/
+
+.dashboard-box
+    {
+	 width:100%;
+	 margin:5% 1%;
+	 padding:2%;
+	 height:130px;
+	 background:#f27b53;
+	 font-size:16px;
+	 
+	}
+	
+.dashboard-box:hover
+    {
+	background:#FFFFFF;
+	color:#000000;
+	 -webkit-transition: background 0.5s linear;
+        -moz-transition: background 0.5s linear;
+        -ms-transition: background 0.5s linear;
+        -o-transition: background 0.5s linear;
+        transition: background 0.5s linear;
+	
+	}
+	
+.dashboard-box:hover img
+   {
+ -webkit-animation-name:             rotate; 
+    -webkit-animation-duration:         0.9s; 
+    -webkit-animation-iteration-count:  infinite;
+    -webkit-transition-timing-function: linear;
+	
+	 -moz-animation-name:             rotate; 
+    -moz-animation-duration:         0.9s; 
+    -moz-animation-iteration-count:  infinite;
+    -moz-transition-timing-function: linear;
+}
+
+@-webkit-keyframes rotate {
+  from {
+    -webkit-transform: rotate(0deg);
+  }
+  to { 
+    -webkit-transform: rotate(360deg);
+  }
+}
+
+
+@-moz-keyframes rotate {
+  from {
+    -moz-transform: rotate(0deg);
+  }
+  to { 
+    -moz-transform: rotate(360deg);
+  }
+}
+
+
+.dashboard-box a 
+	      {
+		    color:#fff; text-decoration:none;
+		  }
+	
+.dashboard-box:hover a
+	      {
+		    color:#000; text-decoration:none;
+			font-size:16px;
+		  }
+		  
+/*End Admission*/
+
+/*Start Pending*/
+
+.dashboard-box1
+    {
+	 width:100%;
+	 margin:5% 1%;
+	 padding:2%;
+	 height:130px;
+	 background:#9e4b9d;
+	 font-size:16px;
+	 
+	}
+	
+.dashboard-box1:hover
+    {
+	background:#FFFFFF;
+	color:#000000;
+	 -webkit-transition: background 0.5s linear;
+        -moz-transition: background 0.5s linear;
+        -ms-transition: background 0.5s linear;
+        -o-transition: background 0.5s linear;
+        transition: background 0.5s linear;
+	
+	}
+	
+.dashboard-box1:hover img
+   {
+ -webkit-animation-name:             rotate; 
+    -webkit-animation-duration:         0.9s; 
+    -webkit-animation-iteration-count:  infinite;
+    -webkit-transition-timing-function: linear;
+	
+	 -moz-animation-name:             rotate; 
+    -moz-animation-duration:         0.9s; 
+    -moz-animation-iteration-count:  infinite;
+    -moz-transition-timing-function: linear;
+}
+
+@-webkit-keyframes rotate {
+  from {
+    -webkit-transform: rotate(0deg);
+  }
+  to { 
+    -webkit-transform: rotate(360deg);
+  }
+}
+
+
+@-moz-keyframes rotate {
+  from {
+    -moz-transform: rotate(0deg);
+  }
+  to { 
+    -moz-transform: rotate(360deg);
+  }
+}
+
+
+.dashboard-box1 a 
+	      {
+		    color:#fff; text-decoration:none;
+		  }
+	
+.dashboard-box1:hover a
+	      {
+		    color:#000; text-decoration:none;
+			font-size:16px;
+		  }
+/*End Pending*/
+
+/*Start Confirm Student*/
+
+.dashboard-box2
+    {
+	 width:100%;
+	 margin:5% 1%;
+	 padding:2%;
+	 height:130px;
+	 background:#ffb301;
+	 font-size:16px;
+	 
+	}
+	
+.dashboard-box2:hover
+    {
+	background:#FFFFFF;
+	color:#000000;
+	 -webkit-transition: background 0.5s linear;
+        -moz-transition: background 0.5s linear;
+        -ms-transition: background 0.5s linear;
+        -o-transition: background 0.5s linear;
+        transition: background 0.5s linear;
+	
+	}
+	
+.dashboard-box2:hover img
+   {
+ -webkit-animation-name:             rotate; 
+    -webkit-animation-duration:         0.9s; 
+    -webkit-animation-iteration-count:  infinite;
+    -webkit-transition-timing-function: linear;
+	
+	 -moz-animation-name:             rotate; 
+    -moz-animation-duration:         0.9s; 
+    -moz-animation-iteration-count:  infinite;
+    -moz-transition-timing-function: linear;
+}
+
+@-webkit-keyframes rotate {
+  from {
+    -webkit-transform: rotate(0deg);
+  }
+  to { 
+    -webkit-transform: rotate(360deg);
+  }
+}
+
+
+@-moz-keyframes rotate {
+  from {
+    -moz-transform: rotate(0deg);
+  }
+  to { 
+    -moz-transform: rotate(360deg);
+  }
+}
+
+
+.dashboard-box2 a 
+	      {
+		    color:#fff; text-decoration:none;
+		  }
+	
+.dashboard-box2:hover a
+	      {
+		    color:#000; text-decoration:none;
+			font-size:16px;
+		  }
+
+/*End Confirm Student*/
+
+/*Certificate Request*/
+
+.dashboard-box3
+    {
+	 width:100%;
+	 margin:5% 1%;
+	 padding:2%;
+	 height:130px;
+	 background:#0eadd4;
+	 font-size:16px;
+	 
+	}
+	
+.dashboard-box3:hover
+    {
+	background:#FFFFFF;
+	color:#000000;
+	 -webkit-transition: background 0.5s linear;
+        -moz-transition: background 0.5s linear;
+        -ms-transition: background 0.5s linear;
+        -o-transition: background 0.5s linear;
+        transition: background 0.5s linear;
+	
+	}
+	
+.dashboard-box3:hover img
+   {
+ -webkit-animation-name:             rotate; 
+    -webkit-animation-duration:         0.9s; 
+    -webkit-animation-iteration-count:  infinite;
+    -webkit-transition-timing-function: linear;
+	
+	 -moz-animation-name:             rotate; 
+    -moz-animation-duration:         0.9s; 
+    -moz-animation-iteration-count:  infinite;
+    -moz-transition-timing-function: linear;
+}
+
+@-webkit-keyframes rotate {
+  from {
+    -webkit-transform: rotate(0deg);
+  }
+  to { 
+    -webkit-transform: rotate(360deg);
+  }
+}
+
+
+@-moz-keyframes rotate {
+  from {
+    -moz-transform: rotate(0deg);
+  }
+  to { 
+    -moz-transform: rotate(360deg);
+  }
+}
+
+
+.dashboard-box3 a 
+	      {
+		    color:#fff; text-decoration:none;
+		  }
+	
+.dashboard-box3:hover a
+	      {
+		    color:#000; text-decoration:none;
+			font-size:16px;
+		  }
+
+/*End Certificate Request*/
+
+/*Passed Student*/
+
+.dashboard-box4
+    {
+	 width:100%;
+	 margin:5% 1%;
+	 padding:2%;
+	 height:130px;
+	 background:#75b749;
+	 font-size:16px;
+	 border-radius:10px 0;
+	 
+	}
+	
+.dashboard-box4:hover
+    {
+	background:#FFFFFF;
+	color:#000000;
+	 -webkit-transition: background 0.5s linear;
+        -moz-transition: background 0.5s linear;
+        -ms-transition: background 0.5s linear;
+        -o-transition: background 0.5s linear;
+        transition: background 0.5s linear;
+	
+	}
+	
+.dashboard-box4:hover img
+   {
+ -webkit-animation-name:             rotate; 
+    -webkit-animation-duration:         0.9s; 
+    -webkit-animation-iteration-count:  infinite;
+    -webkit-transition-timing-function: linear;
+	
+	 -moz-animation-name:             rotate; 
+    -moz-animation-duration:         0.9s; 
+    -moz-animation-iteration-count:  infinite;
+    -moz-transition-timing-function: linear;
+}
+
+@-webkit-keyframes rotate {
+  from {
+    -webkit-transform: rotate(0deg);
+  }
+  to { 
+    -webkit-transform: rotate(360deg);
+  }
+}
+
+
+@-moz-keyframes rotate {
+  from {
+    -moz-transform: rotate(0deg);
+  }
+  to { 
+    -moz-transform: rotate(360deg);
+  }
+}
+
+
+.dashboard-box4 a 
+	      {
+		    color:#fff; text-decoration:none;
+		  }
+	
+.dashboard-box4:hover a
+	      {
+		    color:#000; text-decoration:none;
+			font-size:16px;
+		  }
+
+/*End Passed Student*/
+
+
+/*Animation Bg Sky*/ 
+#sky-slide	{ 
+	width: 100%; 
+	background-image:url(../images/bg-clouds.png);
+	animation: animatedBackground 25s linear infinite;
+    -moz-animation: animatedBackground 25s linear infinite;
+    -webkit-animation: animatedBackground 25s linear infinite;
+    -ms-animation: animatedBackground 25s linear infinite;
+    -o-animation: animatedBackground 25s linear infinite;
+}
+
+
+@keyframes animatedBackground {
+    0% { background-position: 0 0; }
+    100% { background-position: -300px 0; }
+}
+@-moz-keyframes animatedBackground {
+    0% { background-position: 0 0; }
+    100% { background-position: -300px 0; }
+}
+@-webkit-keyframes animatedBackground {
+    0% { background-position: 0 0; }
+    100% { background-position: -300px 0; }
+}
+@-ms-keyframes animatedBackground {
+    0% { background-position: 0 0; }
+    100% { background-position: -300px 0; }
+}
+@-o-keyframes animatedBackground {
+    0% { background-position: 0 0; }
+    100% { background-position: -300px 0; }
+}
+
+/*End Animation Bg Sky*/
+
+/*Background color change CSS3*/
+
+.changeBG {
+      animation: colorchange 50s; /* animation-name followed by duration in seconds*/
+         /* you could also use milliseconds (ms) or something like 2.5s */
+      -webkit-animation: colorchange 50s; /* Chrome and Safari */
+    }
+
+    @keyframes colorchange
+    {
+      0%   {background: red;}
+      25%  {background: purple;}
+      50%  {background: blue;}
+      75%  {background: green;}
+      100% {background: red;}
+    }
+
+    @-webkit-keyframes colorchange /* Safari and Chrome - necessary duplicate */
+    {
+      0%   {background: red;}
+      25%  {background: purple;}
+      50%  {background: blue;}
+      75%  {background: green;}
+      100% {background: red;}
+    }
+	
+/*End Background color change*/
+
+/*Start Box-Icard hm*/
+
+.box-m
+    {
+	 width:100%;
+	 margin:5% 1%;
+	 padding:2%;
+	 height:95px;
+	 background:#dc542c;
+	 font-size:16px;
+	 border-radius:10px 0;
+	 
+	}
+	
+.box-m:hover
+    {
+	background:#045855;
+	color:#fff;
+	border:2px solid #9e4b9d;
+	 -webkit-transition: background 0.5s linear;
+        -moz-transition: background 0.5s linear;
+        -ms-transition: background 0.5s linear;
+        -o-transition: background 0.5s linear;
+        transition: background 0.5s linear;
+		border-radius:0 10px;
+		
+	
+	}
+	
+.box-m:hover img
+   {
+ -webkit-animation-name:             rotate; 
+    -webkit-animation-duration:         0.9s; 
+    -webkit-animation-iteration-count:  infinite;
+    -webkit-transition-timing-function: linear;
+	
+	 -moz-animation-name:             rotate; 
+    -moz-animation-duration:         0.9s; 
+    -moz-animation-iteration-count:  infinite;
+    -moz-transition-timing-function: linear;
+}
+
+@-webkit-keyframes rotate {
+  from {
+    -webkit-transform: rotate(0deg);
+  }
+  to { 
+    -webkit-transform: rotate(360deg);
+  }
+}
+
+
+@-moz-keyframes rotate {
+  from {
+    -moz-transform: rotate(0deg);
+  }
+  to { 
+    -moz-transform: rotate(360deg);
+  }
+}
+
+
+.box-m a 
+	      {
+		    color:#fff; text-decoration:none;
+		  }
+	
+.box-m:hover a
+	      {
+		    color:#fff; text-decoration:none;
+			font-size:16px;
+		  }
+/*End Box-Icard-Hm*/
+
+/*Start Box-Icard hm*/
+
+.box-adm
+    {
+	 width:100%;
+	 margin:5% 1%;
+	 padding:2%;
+	 height:95px;
+	 background:#048c04;
+	 font-size:16px;
+	 border-radius:10px 0;
+	 
+	}
+	
+.box-adm:hover
+    {
+	background:#045855;
+	color:#fff;
+	border:2px solid #9e4b9d;
+	 -webkit-transition: background 0.5s linear;
+        -moz-transition: background 0.5s linear;
+        -ms-transition: background 0.5s linear;
+        -o-transition: background 0.5s linear;
+        transition: background 0.5s linear;
+		border-radius:0 10px;
+		
+	
+	}
+	
+.box-adm:hover img
+   {
+ -webkit-animation-name:             rotate; 
+    -webkit-animation-duration:         0.9s; 
+    -webkit-animation-iteration-count:  infinite;
+    -webkit-transition-timing-function: linear;
+	
+	 -moz-animation-name:             rotate; 
+    -moz-animation-duration:         0.9s; 
+    -moz-animation-iteration-count:  infinite;
+    -moz-transition-timing-function: linear;
+}
+
+@-webkit-keyframes rotate {
+  from {
+    -webkit-transform: rotate(0deg);
+  }
+  to { 
+    -webkit-transform: rotate(360deg);
+  }
+}
+
+
+@-moz-keyframes rotate {
+  from {
+    -moz-transform: rotate(0deg);
+  }
+  to { 
+    -moz-transform: rotate(360deg);
+  }
+}
+
+
+.box-adm a 
+	      {
+		    color:#fff; text-decoration:none;
+		  }
+	
+.box-adm:hover a
+	      {
+		    color:#fff; text-decoration:none;
+			font-size:16px;
+		  }
+/*End Box-Icard-Hm*/
+
+/*Start Box-PG hm*/
+
+.box-pg
+    {
+	 width:100%;
+	 margin:5% 1%;
+	 padding:2%;
+	 height:95px;
+	 background:#ab052c;
+	 font-size:16px;
+	 border-radius:10px 0;
+	 
+	}
+	
+.box-pg:hover
+    {
+	background:#045855;
+	color:#fff;
+	border:2px solid #9e4b9d;
+	 -webkit-transition: background 0.5s linear;
+        -moz-transition: background 0.5s linear;
+        -ms-transition: background 0.5s linear;
+        -o-transition: background 0.5s linear;
+        transition: background 0.5s linear;
+		border-radius:0 10px;
+		
+	
+	}
+	
+.box-pg:hover img
+   {
+ -webkit-animation-name:             rotate; 
+    -webkit-animation-duration:         0.9s; 
+    -webkit-animation-iteration-count:  infinite;
+    -webkit-transition-timing-function: linear;
+	
+	 -moz-animation-name:             rotate; 
+    -moz-animation-duration:         0.9s; 
+    -moz-animation-iteration-count:  infinite;
+    -moz-transition-timing-function: linear;
+}
+
+@-webkit-keyframes rotate {
+  from {
+    -webkit-transform: rotate(0deg);
+  }
+  to { 
+    -webkit-transform: rotate(360deg);
+  }
+}
+
+
+@-moz-keyframes rotate {
+  from {
+    -moz-transform: rotate(0deg);
+  }
+  to { 
+    -moz-transform: rotate(360deg);
+  }
+}
+
+
+.box-pg a 
+	      {
+		    color:#fff; text-decoration:none;
+		  }
+	
+.box-pg:hover a
+	      {
+		    color:#fff; text-decoration:none;
+			font-size:16px;
+		  }
+/*End Box-pg-Hm*/
+
+/*Start Box-PR hm*/
+
+.box-pr
+    {
+	 width:100%;
+	 margin:5% 1%;
+	 padding:2%;
+	 height:95px;
+	 background:#2474ec;
+	 font-size:16px;
+	 border-radius:10px 0;
+	 
+	}
+	
+.box-pr:hover
+    {
+	background:#045855;
+	color:#fff;
+	border:2px solid #9e4b9d;
+	 -webkit-transition: background 0.5s linear;
+        -moz-transition: background 0.5s linear;
+        -ms-transition: background 0.5s linear;
+        -o-transition: background 0.5s linear;
+        transition: background 0.5s linear;
+		border-radius:0 10px;
+		
+	
+	}
+	
+.box-pr:hover img
+   {
+ -webkit-animation-name:             rotate; 
+    -webkit-animation-duration:         0.9s; 
+    -webkit-animation-iteration-count:  infinite;
+    -webkit-transition-timing-function: linear;
+	
+	 -moz-animation-name:             rotate; 
+    -moz-animation-duration:         0.9s; 
+    -moz-animation-iteration-count:  infinite;
+    -moz-transition-timing-function: linear;
+}
+
+@-webkit-keyframes rotate {
+  from {
+    -webkit-transform: rotate(0deg);
+  }
+  to { 
+    -webkit-transform: rotate(360deg);
+  }
+}
+
+
+@-moz-keyframes rotate {
+  from {
+    -moz-transform: rotate(0deg);
+  }
+  to { 
+    -moz-transform: rotate(360deg);
+  }
+}
+
+
+.box-pr a 
+	      {
+		    color:#fff; text-decoration:none;
+		  }
+	
+.box-pr:hover a
+	      {
+		    color:#fff; text-decoration:none;
+			font-size:16px;
+		  }
+/*End Box-Icard-Hm*/
+
+/*Start Box-Down hm*/
+
+.box-Down
+    {
+	 width:100%;
+	 margin:5% 1%;
+	 padding:2%;
+	 height:95px;
+	 background:#8c049c;
+	 font-size:16px;
+	 border-radius:10px 0;
+	 
+	}
+	
+.box-Down:hover
+    {
+	background:#045855;
+	color:#fff;
+	border:2px solid #9e4b9d;
+	 -webkit-transition: background 0.5s linear;
+        -moz-transition: background 0.5s linear;
+        -ms-transition: background 0.5s linear;
+        -o-transition: background 0.5s linear;
+        transition: background 0.5s linear;
+		border-radius:0 10px;
+		
+	
+	}
+	
+.box-Down:hover img
+   {
+ -webkit-animation-name:             rotate; 
+    -webkit-animation-duration:         0.9s; 
+    -webkit-animation-iteration-count:  infinite;
+    -webkit-transition-timing-function: linear;
+	
+	 -moz-animation-name:             rotate; 
+    -moz-animation-duration:         0.9s; 
+    -moz-animation-iteration-count:  infinite;
+    -moz-transition-timing-function: linear;
+}
+
+@-webkit-keyframes rotate {
+  from {
+    -webkit-transform: rotate(0deg);
+  }
+  to { 
+    -webkit-transform: rotate(360deg);
+  }
+}
+
+
+@-moz-keyframes rotate {
+  from {
+    -moz-transform: rotate(0deg);
+  }
+  to { 
+    -moz-transform: rotate(360deg);
+  }
+}
+
+
+.box-Down a 
+	      {
+		    color:#fff; text-decoration:none;
+		  }
+	
+.box-Down:hover a
+	      {
+		    color:#fff; text-decoration:none;
+			font-size:16px;
+		  }
+/*End Box-Icard-Hm*/
+
+/*Start Box-JS hm*/
+
+.box-js
+    {
+	 width:100%;
+	 margin:5% 1%;
+	 padding:2%;
+	 height:95px;
+	 background:#067784;
+	 font-size:16px;
+	 border-radius:10px 0;
+	 
+	}
+	
+.box-js:hover
+    {
+	background:#045855;
+	color:#fff;
+	border:2px solid #9e4b9d;
+	 -webkit-transition: background 0.5s linear;
+        -moz-transition: background 0.5s linear;
+        -ms-transition: background 0.5s linear;
+        -o-transition: background 0.5s linear;
+        transition: background 0.5s linear;
+		border-radius:0 10px;
+		
+	
+	}
+	
+.box-js:hover img
+   {
+ -webkit-animation-name:             rotate; 
+    -webkit-animation-duration:         0.9s; 
+    -webkit-animation-iteration-count:  infinite;
+    -webkit-transition-timing-function: linear;
+	
+	 -moz-animation-name:             rotate; 
+    -moz-animation-duration:         0.9s; 
+    -moz-animation-iteration-count:  infinite;
+    -moz-transition-timing-function: linear;
+}
+
+@-webkit-keyframes rotate {
+  from {
+    -webkit-transform: rotate(0deg);
+  }
+  to { 
+    -webkit-transform: rotate(360deg);
+  }
+}
+
+
+@-moz-keyframes rotate {
+  from {
+    -moz-transform: rotate(0deg);
+  }
+  to { 
+    -moz-transform: rotate(360deg);
+  }
+}
+
+
+.box-js a 
+	      {
+		    color:#fff; text-decoration:none;
+		  }
+	
+.box-js:hover a
+	      {
+		    color:#fff; text-decoration:none;
+			font-size:16px;
+		  }
+/*End Box-Icard-Hm*/
+
+
+/*Left Menu Admin*/
+
+.link-dash
+
+ {
+
+ color:#FFFFFF;
+
+ text-decoration:none;
+
+ font-size:18px;
+
+ }
+
+ 
+
+ .link-dash:hover
+
+ {
+
+ color:#dddddd;
+
+ text-decoration:none;
+
+ }
+
+ 
+
+ .dash-link
+
+    {
+
+	width:100%;
+
+	float:left;
+
+	padding-bottom:10px;
+
+	border-bottom:1px double #ccc;
+
+	}
+
+	
+
+.dash-link a
+
+   {
+
+   color:#FFFFFF;
+
+   text-decoration:none;
+
+   }
+
+   
+
+.dash-link a:hover
+
+   {
+
+   color:#e9ebe8;
+
+   text-decoration:none;
+
+   }
+
+   
+
+.user-link
+
+{
+
+color:#0066FF;
+
+text-decoration:noone;
+
+}
+
+	
+
+	   
+
+.user-link1
+
+{
+
+color:#FF6600;
+
+text-decoration:noone;
+
+}
+
+/*
+
+.left-navi
+
+  {
+
+  width:350px;
+
+  float:left
+
+  }
+
+  */
+
+   ul.topnav {
+
+  list-style-type: none;
+
+  margin: 0;
+
+  padding: 0;
+
+  overflow: hidden;
+
+  background-color: #333;
+
+}
+
+
+
+ul.topnav li {}
+
+
+
+ul.topnav li a {
+
+  display: inline-block;
+
+  color: #f2f2f2;
+
+  text-decoration: none;
+
+  transition: 0.3s;
+
+ 
+
+}
+
+
+
+ul.topnav li a:hover {background-color: #111;}
+
+
+
+ul.topnav li.icon {display: none;}
+
+
+
+@media screen and (max-width:680px) {
+
+  ul.topnav li:not(:first-child) {display: none;}
+
+  ul.topnav li.icon {
+
+    float: right;
+
+    display: inline-block;
+
+  }
+
+ 
+
+ 
+
+}
+
+
+
+@media screen and (max-width:680px) {
+
+  ul.topnav.responsive {position: relative;}
+
+  ul.topnav.responsive li.icon {
+
+    position: absolute;
+
+    right: 0;
+
+    top: 0;
+
+  }
+
+  ul.topnav.responsive li {
+
+    float: none;
+
+    display: inline;
+
+  }
+
+  ul.topnav.responsive li a {
+
+    
+
+    text-align: left;
+
+  }
+
+ 
+
+  
+
+}
